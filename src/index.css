@@ -1,0 +1,493 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+ 
+
+.gridr1 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(400px, 3fr));
+}
+.gridr2 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 3fr));
+}
+
+.gridr3 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+.gridr31 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.gridr4 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.gridr5 {
+  max-width: 1200px;
+  margin:  0  5%  auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: repeat(6, 150px);
+  
+  margin-top: 10px;
+  gap: 20px;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(6, 150px);
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  gap: 20px;
+}
+.grid7 {
+  display: grid;
+  grid-template-columns: repeat(7, 3fr);
+  grid-template-rows: repeat(0, 0px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 130px;
+}
+#navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  height: 60px;
+  border-bottom: 1px solid cyan;
+  position: fixed;
+  padding-top: 15px;
+  padding-right: 100px;
+  left:0;
+  width:100%;
+  text-align:center;
+  transition: 0.5s;
+  z-index: 5000;
+}
+
+ 
+
+
+.text-link{
+  text-decoration: none;
+ color: initial;
+ }
+ .text-link:hover{
+  color: cyan;
+  cursor: pointer;
+ }
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: whitesmoke;
+    color: black;
+   
+  
+ 
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+   
+  
+  margin-right: 500px;
+  box-shadow: 30px 30px 16px 30px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+ 
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex; flex-direction: row; 
+  align-items: center; align-content: center; 
+  justify-items: center; justify-content: center;
+  margin-left: -1000px;
+  gap: 75px;
+  height: 500px;
+
+}
+ 
+.homePic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6c5adbc0434a11e426d62e_Enalia%20Home.jpg');
+  background-position: -230px 0,50% 50%; 
+  background-size: 90%; 
+  background-repeat: no-repeat;
+ 
+    }
+
+.home-pic2{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f0c9335d58bce99219e7291_Enalia_Home%20vision.png');
+   
+  background-repeat: no-repeat;
+}
+.home-pic3{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f0c9334d2d28022714772f3_Enalia_Home%20groupe.png');
+  
+  background-repeat: no-repeat;
+ overflow: hidden;
+
+}
+
+.highlight {
+  padding-right: 7px;
+  padding-left: 7px;
+  background-color: #7fe3a5;
+  line-height: 0;
+}
+
+.home-pic4{
+  background-image: url('https://uploads-ssl.webflow.com/5f4d6f5c3420034337bd5a1e/6011620bff41e92132178c43_Joe_Biden_-_48252462456%20(1).jpg');
+  
+}
+
+
+.footer{
+  
+  
+    margin-bottom: -500px;
+  height: 250px;
+  width: 100%;
+   
+  background-color: rgb(53, 52, 52) ;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+   bottom: 0;
+ position: sticky;
+  
+}
+ 
+
+.dot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position:absolute;
+  top:0;
+  left:0;
+  width:50px;
+  height:50px;
+  background:whitesmoke;
+  border-radius:50%;
+}
+.sun{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:500px;
+  height:500px;
+  border: 1px solid cyan;
+  border-radius: 50%;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  animation-name:orbit;
+  -webkit-animation-duration:5s;
+  animation-duration:15s;
+  top:50px;
+  left:50px;
+}
+
+@keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } 
+}
+
+ 
+
+.sun2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:500px;
+  height:500px;
+  border: 1px solid cyan;
+  border-radius: 50%;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  animation-name:orbit;
+  -webkit-animation-duration:5s;
+  animation-duration:15s;
+  top:50px;
+  left:50px;
+}
+.sun3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:500px;
+  height:500px;
+  border: 1px solid cyan;
+  border-radius: 50%;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  animation-name:orbit;
+  -webkit-animation-duration:1s;
+  animation-duration:1s;
+  top:50px;
+  left:50px;
+}
+.spring-pic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6cb65a329ec5f198d17b9d_Vision_Enalia.jpg');
+  background-size: 100%;
+}
+ 
+ .vision3-pic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f50f5f8c54783481c1aa6d4_Test.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+
+ .vision31-pic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f50f6b1f059cf5b6971427f_Process%20Enalia_2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+
+ .vision32-pic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f50f6b235238084ef2fcc7a_Process%20Enalia_3.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+ .vision33-pic{
+  background-image: url('https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f51043eb62b3b5c81b07390_Enalia%20Process%204.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+
+ .vision4-pic{
+   background-image: url('https://previews.123rf.com/images/gstockstudio/gstockstudio1702/gstockstudio170200294/71539568-journ%C3%A9e-de-travail-dans-le-bureau-groupe-de-jeunes-gens-d-affaires-smart-casual-wear-travail-et-de-c.jpg');
+   background-repeat: no-repeat;
+    opacity: 1;
+   background-size: 100%;
+   height: 400px;
+   width: 400px;
+  }
+
+  .vision4-pic:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  .vision5-pic{
+    background-image: url('https://st3.depositphotos.com/12548352/16360/i/600/depositphotos_163602090-stock-photo-minimalistic-room-interior.jpg');
+    background-repeat: no-repeat;
+     opacity: 1;
+    background-size: 100%;
+    height: 400px;
+    width: 400px;
+   }
+ 
+   .vision5-pic:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  .groupe-pic1 {
+    background-image: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%),
+                    url("https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f476c595d4c1f955b418b2d_Menu_Groupe.png");
+    color: white;
+    padding: 1rem;
+    width: 100%;
+     
+    
+  }
+ 
+.groupe-color{
+  background-color: #7fe3a5;
+  height: 500px;
+}
+
+.button-groupe{
+ 
+  height: 100px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-groupe2{
+  background-color: whitesmoke;
+  height: 100px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+ 
+.expertises-pic1 {
+  background-image: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%),
+                  url("https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f845c6be03a7e047a08d43e_Expertises_Enalia.jpg");
+  color: white;
+  padding: 1rem;
+  width: 100%;
+   
+  
+}
+
+ 
+ 
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6c98a2ee9ae9fb92ab5411_Alto002.jpg);
+}
+
+.card2 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6c977cbe7ff7377a2ace65_Alto029.jpg);
+}
+
+.card3 {
+  opacity: 0.9;
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6c97ab8396b1627d006b02_Alto054.jpg);
+}
+
+.card4 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f6c971cc9a55149aff460a0_Alto060.jpg);
+}
+
+.card5 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f86c405853bc8da0859a288_Neutrali%201.jpg);
+}
+
+.card6 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f86c4071fcffed5011f0dad_Neutrali%205.jpg);
+}
+
+.card7{
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f86c403853bc843cc59a286_Neutrali%203.jpg);
+}
+
+.card8 {
+  width: 25ch;
+  height: 25ch;
+  background-image: url(https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f86c404188853354f76c7e0_Neutrali%204-p-500.jpeg);
+}
+ 
+
+.carrieres-pic1 {
+  background-image:url("https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f4fc9959b6ca7d7092f305c_Fond%20Carrieres.png");
+  color: white;
+ 
+  opacity: 1;
+   
+  
+}
+
+input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+textarea{
+  resize: none;
+  white-space: pre-wrap;
+  columns: 35;
+   
+}
