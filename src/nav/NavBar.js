@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import useWindowSize from "src/useWindowSize.js";
+import useWindowSize from "../useWindowSize.js";
 
 const NavBar = () => {
   const { width } = useWindowSize();
