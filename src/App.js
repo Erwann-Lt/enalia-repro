@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Switch, Route} from 'react-router-dom'
 import Carrieres from "./carrieres/Carrieres";
 import Contact from "./contact/Contact";
@@ -11,9 +11,16 @@ import Presse from "./medias/Presse";
 import NavBar from "./nav/NavBar";
 import ScrollToTop from "./ScrollToTop";
 import Vision from "./vision/Vision";
- 
+import useWindowSize from "./useWindowSize";
+
 
 const App=()=> {
+ 
+ const {width}=useWindowSize()
+  useEffect(()=>{
+    
+  }, [width])
+ 
   return (
     <div className="container-fluid">
     <nav>
