@@ -11,8 +11,7 @@ import Presse from "./medias/Presse";
 import NavBar from "./nav/NavBar";
 import ScrollToTop from "./ScrollToTop";
 import Vision from "./vision/Vision";
-import useWindowSize from "./useWindowSize";
-
+ 
 
 const App=()=> {
  
