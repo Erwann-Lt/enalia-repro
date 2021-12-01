@@ -23,12 +23,7 @@ const dataCodir = [
         poste: 'Directeur Stratégique',
         ref:'https://fr.linkedin.com/in/gaetan-thoraval-971aaa38'
     },
-    {
-        photo:'https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f4d5ddd82b194c4222f9443_5590b54fe0d9195a4b91e26153eb2dcc.png',
-        name: 'Florence Arnould',
-        poste: 'Directeur des opérations',
-        ref:'https://fr.linkedin.com/in/gaetan-thoraval-971aaa38'
-    },
+     
     {
         photo:'https://uploads-ssl.webflow.com/5f0c8ee786502d713c4bbd11/5f7ec802b05695842ef9b938_Julie_Enalia.jpg',
         name: 'Julie Massenot',
