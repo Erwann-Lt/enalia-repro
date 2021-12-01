@@ -147,8 +147,8 @@ const NavBar = () => {
         </div>{" "}
         &nbsp; &nbsp;
         <Link className="text-link" to="/contact">
-          {" "}
-          <h6 style={{ marginTop: "3px" }}>CONTACT</h6>{" "}
+          
+          <h6 style={{ marginTop: "3px", fontSize: "2vw" }}>CONTACT</h6>
         </Link>
       </div>
     </div>
