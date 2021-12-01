@@ -3,18 +3,45 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Vision2 from './Vision2'
 import Vision3 from './Vision3'
 import Vision4 from './Vision4'
- 
+import useWindowSize from '../useWindowSize'
 
 
 const Vision = () => {
-   
+   const {width}= useWindowSize()
     const myRef = useRef(null)
  
 
     const executeScroll = () => myRef.current.scrollIntoView()    
 
     return (
-        <div>
+      <>
+      {width <650 ?
+      <div  >
+      <div ref={myRef} style={{marginTop:'100px'}}>
+                    <Vision2 />  
+                </div>
+                <Vision3 />
+
+                <div style={{marginTop:'1300px'}}>
+                  <h2 
+                  style={{fontSize:'1.5em',
+                   fontWeight:'bold',
+                    color:'#54565a',
+            marginLeft:' 75px'
+            }}> Vous souhaitez
+            <em className='highlight'>en savoir plus?</em></h2>
+                </div>
+       
+                  <Vision4 />
+ 
+                
+        
+        </div>
+      
+      
+      :
+      
+      <div>
         <div className='spring-pic' style={{height:'100vh' }}>
 
           
@@ -144,6 +171,9 @@ const Vision = () => {
                 <Vision4 />
         
         </div>
+      }
+      </>
+        
     )
 }
 
