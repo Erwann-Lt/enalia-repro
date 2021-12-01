@@ -1,8 +1,13 @@
 import React from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-
+import useWindowSize from '../useWindowSize'
 const Vision3 = () => {
+    const {width}=useWindowSize()
     return (
+        <>
+        {width <650 ?
+        null
+        :
         <div  >
          <div  style={{height:'100vh' }}>
             <Parallax pages={4} style={{ marginTop: '100px', left: '0' }}>
@@ -78,6 +83,9 @@ const Vision3 = () => {
 
 </div>
         </div>
+        }
+        </>
+        
     )
 }
 
